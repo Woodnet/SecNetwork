@@ -1,3 +1,8 @@
+#BETA-VERSION
+#
+#Woodnet-SecNetwork-Client
+#Autor: Pulsar
+#
 import socket,os,time,sys
 from cryptography.fernet import Fernet 
 from colorama import init,Fore,Style
@@ -23,12 +28,12 @@ print(w+"["+c+"%s"%(gettime())+w+"] ["+g+"INFO"+w+"]"+g+" Python-Version:"+w+" 3
 Port = 501
 os.system("cls") #Windows -default
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #TCP
-s.bind(("192.168.178.35", int(Port)))
+s.bind(("[EIGENE IP]", int(Port))) # --> BITTE AUSFÜLLEN!!
 print("\n\n")
 sys.stdout.write(w+"\r["+c+"%s" % (gettime())+w+"] ["+g+"INFO"+w+"]"+g+" Verbindung wird zum Server hergestellt..")
 sys.stdout.flush()
 try:
-    s.connect(("192.168.178.35", 8844))
+    s.connect(("[SERVER-IP]", 8844)) # --> BITTE AUSFÜLLEN!!
     print(w+"["+g+"verbunden"+w+"]")
 except Exception as e:
     print(e)
