@@ -31,7 +31,7 @@ def set_s():
     return s
     
 def set_s_addr():
-    s_addr = (("192.168.178.35", 8844))  # => LOCALHOST - default
+    s_addr = (("[SERVER-IP]", 8844))  # => LOCALHOST - default
     return s_addr
 #
 #Variabeln
