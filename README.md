@@ -7,7 +7,7 @@ Das SecNetzwerk ist noch in der Beta-Version, weil noch mehrere Funktionen hinzu
 
 # Funktionen
 
-Anbei findest du ein Server-Script, das der Hauptserver ist (secNetworkserver.py), dieser lässt nur eine Verbindung von einem Client zu, welche ebenfals 
+Anbei findest du ein Server-Script, das der Hauptserver ist (secNetworkServer.py), dieser lässt nur eine Verbindung von einem Client zu, welche ebenfals 
 dabei ist. Es wird ein Verschlüsselungskey benutzt, der bei jedem Neustart des Scripts erneuert wird. Außerdem schreibt der Server Logs und zwar bei jeder
 Verbindung, die reinkommt. Sobald sich die gleiche IP, bzw. der gleiche Port mit dem Server verbunden hat, merkt dies der Server und vermerkt diese somit. 
 Es können auch IPs in die Blacklist geschrieben werden, von denen die Verbindung verweigert wird. Es können immer wieder Fehler auftreten und falls dies der Fall 
