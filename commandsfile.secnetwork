@@ -1,0 +1,14 @@
+ help
+ stop server
+ start chatserver
+ start socketserver1
+ start socketserver2
+ stop socketserver1
+ stop socketserver2 
+ closeconnection
+ showlogs
+ sh status servers
+ get addr socketserver1
+ get addr socketserver2
+ get cryptkey
+ money
